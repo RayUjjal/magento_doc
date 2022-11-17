@@ -1,0 +1,12 @@
+token url : http://hamilton.magento.com/index.php/rest/V1/integration/admin/token
+	header: 
+		Content-Type application/json
+	body (raw data)
+		{
+		  "username": "admin",
+		  "password": "Admin@123456"
+		}
+		
+------------------------------------------------------------------------------------
+
+
